@@ -1,0 +1,38 @@
+# --- .NET build output ---
+bin/
+obj/
+out/
+publish/
+*.user
+*.suo
+*.userprefs
+
+# --- Visual Studio / Rider ---
+.vs/
+.idea/
+*.sln.docstates
+
+# --- NuGet ---
+*.nupkg
+packages/
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- ReSharper ---
+_ReSharper*/
+*.DotSettings.user
+
+# --- Test results ---
+TestResults/
+*.trx
+*.coverage
+
+# --- Logs ---
+*.log
